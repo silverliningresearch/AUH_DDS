@@ -102,7 +102,8 @@ function load_flight_list() {
         Show +=")";
 
         var str = '{' + Date + Time + AirlineCode + Airline + Flight +  Dest + DestName + Via + ViaName +  Show + '"}';
-    
+      
+        var item  = JSON.parse(str);
         flightList.push(item);
       }
     }
