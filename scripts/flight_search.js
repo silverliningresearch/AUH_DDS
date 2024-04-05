@@ -129,8 +129,8 @@ function save_flight_value(question, value) {
 
   api.fn.answers({flight_show:  value.Show});
   api.fn.answers({flight_number:   value.Flight});
-  api.fn.answers({airline_name:   value.Airline}); //airline name
   api.fn.answers({airline_code:   value.AirlineCode}); //airline code
+  api.fn.answers({airline_name:   value.Airline}); //airline name
   api.fn.answers({airport_code:   value.Dest});
   api.fn.answers({airport_name: value.DestName});
  
