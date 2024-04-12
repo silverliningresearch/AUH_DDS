@@ -1,7 +1,6 @@
      let AUH_Flight_List_Raw = ` 
 [
  
-  
     {
         "Time": "0240",
         "Date": "27-03-2024",
