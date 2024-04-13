@@ -26,25 +26,25 @@
     },
     {
         "Month": "04-2024",
-        "quota_id": "Facilities - Prayer Rooms - Arrivals",
+        "quota_id": "Airport Facilities - Prayer Rooms - Arrivals",
         "Terminal": "NA",
         "Quota": 50
     },
     {
         "Month": "04-2024",
-        "quota_id": "Facilities - Prayer Rooms - Departures",
+        "quota_id": "Airport Facilities - Prayer Rooms - Departures",
         "Terminal": "NA",
         "Quota": 50
     },
     {
         "Month": "04-2024",
-        "quota_id": "Facilities - Smoking Rooms - Arrivals",
+        "quota_id": "Airport Facilities - Smoking Rooms - Arrivals",
         "Terminal": "NA",
         "Quota": 50
     },
     {
         "Month": "04-2024",
-        "quota_id": "Facilities - Smoking Rooms - Departures",
+        "quota_id": "Airport Facilities - Smoking Rooms - Departures",
         "Terminal": "NA",
         "Quota": 50
     },

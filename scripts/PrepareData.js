@@ -148,9 +148,9 @@ function prepareInterviewData() {
 
         if (interview["Survey"] == 1) survey = "Check-in & Departures Immigration";
         if (interview["Survey"] == 2) survey = "Commercial - Retail and F&B";
-        if (interview["Survey"] == 3) survey = "Wayfinding, FIDS, Seatings & Gates";
+        if (interview["Survey"] == 3) survey = "Wayfinding, FIDS, Seatings & Gates, Wi-Fi";
         if (interview["Survey"] == 4) survey = "Airport Facilities - Prayer Rooms";
-        if (interview["Survey"] == 5) survey = " Airport Facilities - Smoking Rooms";
+        if (interview["Survey"] == 5) survey = "Airport Facilities - Smoking Rooms";
         if (interview["Survey"] == 6) survey = "Accessibility";
         if (interview["Survey"] == 7) survey = "Arrival Immigration";
         quota_id = survey;
