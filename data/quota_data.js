@@ -26,12 +26,6 @@
     },
     {
         "Month": "04-2024",
-        "quota_id": "Airport Facilities - Prayer Rooms - Arrivals",
-        "Terminal": "NA",
-        "Quota": 50
-    },
-    {
-        "Month": "04-2024",
         "quota_id": "Airport Facilities - Prayer Rooms - Departures",
         "Terminal": "NA",
         "Quota": 50
@@ -64,7 +58,7 @@
         "Month": "04-2024",
         "quota_id": "Arrival Immigration",
         "Terminal": "NA",
-        "Quota": 200
+        "Quota": 250
     }
 
 ]    
