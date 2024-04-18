@@ -58,7 +58,7 @@
         "Month": "04-2024",
         "quota_id": "Arrival Immigration",
         "Terminal": "NA",
-        "Quota": 250
+        "Quota": 200
     }
 
 ]    
