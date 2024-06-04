@@ -54,9 +54,12 @@ function initCurrentTimeVars() {
   }
  
   switch(currentMonth) {
-    case "2024-04":          
+    case "04-2024":          
       total_quota = 1410;
       break;
+    case "06-2024":          
+      total_quota = 1854;
+      break;      
     default:
       total_quota = 1410;
       break;

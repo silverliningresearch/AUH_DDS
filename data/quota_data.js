@@ -125,53 +125,54 @@
     },
 
 
+
     {
         "Month": "06-2024",
         "quota_id": "Check-in & Departures Immigration",
         "Terminal": "NA",
-        "Quota": 300
+        "Quota": 385
     },
     {
         "Month": "06-2024",
         "quota_id": "Commercial - Retail and F&B",
         "Terminal": "NA",
-        "Quota": 300
+        "Quota": 405
     },
     {
         "Month": "06-2024",
         "quota_id": "Wayfinding, FIDS, Seatings & Gates, Wi-Fi - Arrivals",
         "Terminal": "NA",
-        "Quota": 200
+        "Quota": 314
     },
     {
         "Month": "06-2024",
         "quota_id": "Wayfinding, FIDS, Seatings & Gates, Wi-Fi - Departures",
         "Terminal": "NA",
-        "Quota": 200
+        "Quota": 208
     },
     {
         "Month": "06-2024",
         "quota_id": "Airport Facilities - Prayer Rooms - Departures",
         "Terminal": "NA",
-        "Quota": 50
+        "Quota": 86
     },
     {
         "Month": "06-2024",
         "quota_id": "Airport Facilities - Smoking Rooms - Arrivals",
         "Terminal": "NA",
-        "Quota": 50
+        "Quota": 63
     },
     {
         "Month": "06-2024",
         "quota_id": "Airport Facilities - Smoking Rooms - Departures",
         "Terminal": "NA",
-        "Quota": 50
+        "Quota": 57
     },
     {
         "Month": "06-2024",
         "quota_id": "Accessibility - Arrivals",
         "Terminal": "NA",
-        "Quota": 30
+        "Quota": 33
     },
     {
         "Month": "06-2024",
@@ -181,6 +182,70 @@
     },
     {
         "Month": "06-2024",
+        "quota_id": "Arrival Immigration",
+        "Terminal": "NA",
+        "Quota": 273
+    },
+
+    
+
+
+    {
+        "Month": "07-2024",
+        "quota_id": "Check-in & Departures Immigration",
+        "Terminal": "NA",
+        "Quota": 300
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Commercial - Retail and F&B",
+        "Terminal": "NA",
+        "Quota": 300
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Wayfinding, FIDS, Seatings & Gates, Wi-Fi - Arrivals",
+        "Terminal": "NA",
+        "Quota": 200
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Wayfinding, FIDS, Seatings & Gates, Wi-Fi - Departures",
+        "Terminal": "NA",
+        "Quota": 200
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Airport Facilities - Prayer Rooms - Departures",
+        "Terminal": "NA",
+        "Quota": 50
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Airport Facilities - Smoking Rooms - Arrivals",
+        "Terminal": "NA",
+        "Quota": 50
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Airport Facilities - Smoking Rooms - Departures",
+        "Terminal": "NA",
+        "Quota": 50
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Accessibility - Arrivals",
+        "Terminal": "NA",
+        "Quota": 30
+    },
+    {
+        "Month": "07-2024",
+        "quota_id": "Accessibility - Departures",
+        "Terminal": "NA",
+        "Quota": 30
+    },
+    {
+        "Month": "07-2024",
         "quota_id": "Arrival Immigration",
         "Terminal": "NA",
         "Quota": 200
