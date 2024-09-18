@@ -52,11 +52,11 @@
           const listSearchHandler = () => {
             console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
             
-            if ( api.fn.getCurrentPageIndex()==6) {
-              show_flight_search_box("Flight_Number");
-            } else {
-              hide_flight_search_box();
-            };
+            // if ( api.fn.getCurrentPageIndex()==6) {
+            //   show_flight_search_box("Flight_Number");
+            // } else {
+            //   hide_flight_search_box();
+            // };
           }    
           api.events.subscribe('next', listSearchHandler);
           api.events.subscribe('back', listSearchHandler);
