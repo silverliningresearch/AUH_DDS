@@ -47,16 +47,64 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
     <script>
+      //////////////////////////
+      function getRandomItems(array, count) {
+        if (count > array.length) {
+          throw new Error("Count cannot be greater than the array length.");
+        }
+
+        const shuffledArray = array.slice().sort(() => 0.5 - Math.random());
+        return shuffledArray.slice(0, count);
+      }
         window.addEventListener('load', function () {
         setTimeout(() => {
           const listSearchHandler = () => {
             console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
             
-            // if ( api.fn.getCurrentPageIndex()==6) {
-            //   show_flight_search_box("Flight_Number");
-            // } else {
-            //   hide_flight_search_box();
-            // };
+            if ( api.fn.getCurrentPageIndex()==1) {
+              var arrivalArray = ["Q14_selected", "Q18_selected", "Q25_selected", "Q39_selected", "Q48_selected", "Q53_selected" , "Q57_selected", "Q63_selected"];
+              var randomItems = getRandomItems(arrivalArray, 4);
+
+              //turn on flag for selected items
+              for (i=0; i<randomItems.length; i++)
+              {
+                var flag_id = randomItems[i];
+                switch(flag_id) {
+                  case "Q14_selected":
+                      api.fn.answers({Q14_selected:  1});  
+                      break;
+                  case "Q18_selected":
+                      api.fn.answers({Q18_selected:  1});  
+                      break;
+                  case "Q25_selected":
+                      api.fn.answers({Q25_selected:  1});  
+                      break;
+                  case "Q39_selected":
+                    api.fn.answers({Q39_selected:  1});  
+                    break;
+                  case "Q48_selected":
+                    api.fn.answers({Q48_selected:  1});  
+                    break;
+                  case "Q53_selected":
+                    api.fn.answers({Q53_selected:  1});  
+                    break;
+                  case "Q57_selected":
+                    api.fn.answers({Q57_selected:  1});  
+                    break;
+                  case "Q63_selected":
+                    api.fn.answers({Q63_selected:  1});  
+                    break;
+                  default:
+                    break;
+                }
+                console.log("random", flag_id); 
+              }
+              
+
+            } else {
+              //
+            };
+
           }    
           api.events.subscribe('next', listSearchHandler);
           api.events.subscribe('back', listSearchHandler);
