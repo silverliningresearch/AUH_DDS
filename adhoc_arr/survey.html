@@ -60,6 +60,18 @@
         setTimeout(() => {
           const listSearchHandler = () => {
             console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
+
+            if (api.fn.getCurrentPageIndex() == 0) {
+              const queryString = window.location.search;
+              const urlParams = new URLSearchParams(queryString);
+              const urlVar01_value = urlParams.get("urlVar01");
+
+              if(urlVar01_value && urlVar01_value!="") 
+              {
+                api.fn.answers({ qr_code_id: (urlVar01_value) });
+                api.fn.answers({ urlVar01: urlVar01_value });
+              }
+            }
             
             if ( api.fn.getCurrentPageIndex()==1) {
               var arrivalArray = ["Q14_selected", "Q18_selected", "Q25_selected", "Q39_selected", "Q48_selected", "Q53_selected" , "Q57_selected", "Q63_selected"];
