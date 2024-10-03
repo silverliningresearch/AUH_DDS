@@ -57,11 +57,21 @@ function notDeparted_flight_search(flight_time) {
   //Time: 0805    
   var flight_time_value = flight_time.substring(0,2) * 60 + flight_time.substring(2,4)*1;
   
-  //plus  3 hour
-  flight_time_value = flight_time_value + 180;
+  var result = false;
 
-  var result = (flight_time_value > current_time_value);
-  //var result = true; //skip this check as requested by BUD team
+  //allow departure time range compare to the current time: -4h +4h
+  
+  //if next date, plus 24 hour
+  if (flight_date == getTomorrow()) 
+  {  
+    flight_time_value = flight_time_value + 24*60;
+  }
+
+  if ((current_time_value < (flight_time_value + 240)) && (current_time_value > (flight_time_value - 240))) //within[-4h +4h]
+  {
+      result = true; 
+  }
+  
   return (result);
 }
 

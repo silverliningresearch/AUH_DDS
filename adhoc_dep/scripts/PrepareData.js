@@ -93,7 +93,6 @@ function notDeparted(flight_time) {
   var flight_time_value = flight_time.substring(0,2) * 60 + flight_time.substring(2,4)*1;
   var result = (flight_time_value > current_time_value);
 
-  result = true;
   return (result);
 }
 
