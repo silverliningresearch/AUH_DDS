@@ -57,11 +57,12 @@ function notDeparted_flight_search(flight_time) {
   //Time: 0805    
   var flight_time_value = flight_time.substring(0,2) * 60 + flight_time.substring(2,4)*1;
   
-  //plus  3 hour
-  flight_time_value = flight_time_value + 180;
+  //plus  4 hour
+  flight_time_value = flight_time_value + 240;
 
   var result = (flight_time_value > current_time_value);
-  //var result = true; //skip this check as requested by BUD team
+  
+  result = true;  // Arrival: any flight
   return (result);
 }
 
@@ -74,7 +75,9 @@ function load_flight_list() {
 
   for (i = 0; i < flightRawList.length; i++) {
     var flight = flightRawList[i];
-    if (((flight.Date == getToDate()) || (flight.Date == getTomorrow()))
+    if (((flight.Date == getToDate()) 
+      //|| (flight.Date == getTomorrow())
+    )
         //&& notDeparted_flight_search(flight.Time)) //today flight && departure
      ) 
     {
@@ -83,7 +86,7 @@ function load_flight_list() {
         var Time = '"Time"' + ":" + '"' +  flightRawList[i].Time + '", ';
         var Flight = '"Flight"' + ":" + '"' +  flightRawList[i].Flight + '", ';
         var Airline = '"Airline"' + ":" + '"' +  flightRawList[i].Airline + '", '; //name
-        var AirlineCode = '"AirlineCode"' + ":" + '"' +  flightRawList[i].AirlineCode + '", ';//code
+        var AirlineCode = '"AirlineCode"' + ":" + '"' +  flightRawList[i].AirlineCode.substring(0,2) + '", ';//code
         var Dest = '"Dest"' + ":" + '"' +  flightRawList[i].Dest + '", ';
         var DestName = '"DestName"' + ":" + '"' +  flightRawList[i].DestName + '", ';
         var Via = "";
@@ -95,7 +98,7 @@ function load_flight_list() {
         }
 
         var Show = '"Show"' + ":" + '"' +  flightRawList[i].Flight + " (" 
-        Show += flightRawList[i].Time + " to " + flightRawList[i].DestName ;
+        Show += "from " + flightRawList[i].DestName ;
         if (flightRawList[i].Next && flightRawList[i].Next !="" && flightRawList[i].Next != flightRawList[i].Dest) {
           Show += " via " +  flightRawList[i].Next ;
         }
@@ -119,7 +122,7 @@ function save_flight_value(question, value) {
 
   api.fn.answers({flight_show:  value.Show});
   api.fn.answers({flight_number:   value.Flight});
-  api.fn.answers({airline_code:   value.AirlineCode}); //airline code
+  api.fn.answers({airline_code:   value.AirlineCode.substring(0,2)}); //airline code
   api.fn.answers({airline_name:   value.Airline}); //airline name
   api.fn.answers({airport_code:   value.Dest});
   api.fn.answers({airport_name: value.DestName});

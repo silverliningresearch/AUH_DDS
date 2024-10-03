@@ -60,79 +60,19 @@
         setTimeout(() => {
           const listSearchHandler = () => {
             console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
-                        
-            if ( api.fn.getCurrentPageIndex()==1) {
-              var depArray = ["Q17_selected", "Q22_selected", "Q28_selected", "Q33_selected", "Q37_selected", "Q48_selected" , "Q67_selected", "Q72_selected",
-                "Q78_selected", "Q82_selected", "Q87_selected", "Q92_selected",  "Q96_selected", "Q100_selected", "Q105_selected", "Q110_selected"
-              ];
-              var randomItems = getRandomItems(depArray, 4);
 
-              //turn on flag for selected items
-              for (i=0; i<randomItems.length; i++)
+            if (api.fn.getCurrentPageIndex() == 0) {
+              const queryString = window.location.search;
+              const urlParams = new URLSearchParams(queryString);
+              const urlVar01_value = urlParams.get("urlVar01");
+
+              if(urlVar01_value && urlVar01_value!="") 
               {
-                var flag_id = randomItems[i];
-                switch(flag_id) {
-                  case "Q17_selected":
-                    api.fn.answers({Q17_selected:  1});  
-                    break;
-                  case "Q22_selected":
-                    api.fn.answers({Q22_selected:  1});  
-                    break;
-                  case "Q28_selected":
-                    api.fn.answers({Q28_selected:  1});  
-                    break;
-                  case "Q33_selected":
-                    api.fn.answers({Q33_selected:  1});  
-                    break;
-                  case "Q37_selected":
-                    api.fn.answers({Q37_selected:  1});  
-                    break;
-                  case "Q48_selected":
-                    api.fn.answers({Q48_selected:  1});  
-                    break;
-                  case "Q67_selected":
-                    api.fn.answers({Q67_selected:  1});  
-                    break;
-                  case "Q72_selected":
-                    api.fn.answers({Q72_selected:  1});  
-                    break;
-
-                  case "Q78_selected":
-                    api.fn.answers({Q78_selected:  1});  
-                    break;
-                  case "Q82_selected":
-                    api.fn.answers({Q82_selected:  1});  
-                    break;
-                  case "Q87_selected":
-                    api.fn.answers({Q87_selected:  1});  
-                    break;
-                  case "Q92_selected":
-                    api.fn.answers({Q92_selected:  1});  
-                    break;
-                  case "Q96_selected":
-                    api.fn.answers({Q96_selected:  1});  
-                    break;
-                  case "Q100_selected":
-                    api.fn.answers({Q100_selected:  1});  
-                    break;
-                  case "Q105_selected":
-                    api.fn.answers({Q105_selected:  1});  
-                    break;
-                  case "Q110_selected":
-                    api.fn.answers({Q110_selected:  1});  
-                    break;
-
-                  default:
-                    break;
-                }
-                console.log("random", flag_id); 
+                api.fn.answers({ qr_code_id: (urlVar01_value) });
+                api.fn.answers({ urlVar01: urlVar01_value });
               }
-              
-
-            } else {
-              //
-            };
-
+            }
+                                    
             if ( api.fn.getCurrentPageIndex()==6) {
               show_flight_search_box("Flight_Number");
             } else {
