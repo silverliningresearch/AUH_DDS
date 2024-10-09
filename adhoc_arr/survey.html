@@ -59,7 +59,7 @@
         window.addEventListener('load', function () {
         setTimeout(() => {
           const listSearchHandler = () => {
-            console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
+            //console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
 
             if (api.fn.getCurrentPageIndex() == 0) {
               const queryString = window.location.search;
@@ -69,12 +69,12 @@
               if(urlVar01_value && urlVar01_value!="") 
               {
                 api.fn.answers({ qr_code_id: (urlVar01_value) });
-                api.fn.answers({ urlVar01: urlVar01_value });
+                //api.fn.answers({ urlVar01: urlVar01_value });
               }
               else
               {
-                api.fn.answers({ qr_code_id: "" });
-                api.fn.answers({ urlVar01: "" });
+                api.fn.answers({ qr_code_id: "NA" });
+                //api.fn.answers({ urlVar01: "NA" });
               }
             }
             
@@ -86,7 +86,7 @@
             };
 
             //>>>Select random open-end
-            if ( api.fn.getCurrentPageIndex()==0) {
+            if ( api.fn.getCurrentPageIndex()==6) {
               var arrivalArray = ["Q14_selected", "Q18_selected", "Q25_selected", "Q39_selected", "Q48_selected", "Q53_selected" , "Q57_selected", "Q63_selected"];
               var randomItems = getRandomItems(arrivalArray, 4);
 
@@ -132,7 +132,7 @@
                   default:
                     break;
                 }
-                console.log("random", flag_id); 
+                //console.log("random", flag_id); 
               }
             } else {
               //
