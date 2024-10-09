@@ -59,7 +59,7 @@
         window.addEventListener('load', function () {
         setTimeout(() => {
           const listSearchHandler = () => {
-            console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
+            //console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
 
             if (api.fn.getCurrentPageIndex() == 0) {
               const queryString = window.location.search;
@@ -69,12 +69,12 @@
               if(urlVar01_value && urlVar01_value!="") 
               {
                 api.fn.answers({ qr_code_id: (urlVar01_value) });
-                api.fn.answers({ urlVar01: urlVar01_value });
+                //api.fn.answers({ urlVar01: urlVar01_value });
               }
               else
               {
-                api.fn.answers({ qr_code_id: "" });
-                api.fn.answers({ urlVar01: "" });
+                api.fn.answers({ qr_code_id: "NA" });
+                //api.fn.answers({ urlVar01: "NA" });
               }
             }
                                     
@@ -85,7 +85,7 @@
             };
 
             //>>>Select random open-end
-            if ( api.fn.getCurrentPageIndex()==0) {
+            if ( api.fn.getCurrentPageIndex()==6) {
               var depArray = ["Q17_selected", "Q22_selected", "Q28_selected", "Q33_selected", "Q37_selected", "Q48_selected" , "Q67_selected", "Q72_selected",
                 "Q78_selected", "Q82_selected", "Q87_selected", "Q92_selected",  "Q96_selected", "Q100_selected", "Q105_selected", "Q110_selected"
               ];
@@ -167,12 +167,10 @@
                   default:
                     break;
                 }
-                console.log("random", flag_id); 
+                //console.log("random", flag_id); 
               }
               
-            } else {
-              //
-            };
+            } 
             //<<<Select random open-end
           }    
           api.events.subscribe('next', listSearchHandler);
