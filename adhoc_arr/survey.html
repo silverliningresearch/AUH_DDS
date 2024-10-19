@@ -59,7 +59,7 @@
         window.addEventListener('load', function () {
         setTimeout(() => {
           const listSearchHandler = () => {
-            //console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
+            console.log("Current Page Index: ", api.fn.getCurrentPageIndex() );
 
             if (api.fn.getCurrentPageIndex() == 0) {
               const queryString = window.location.search;
@@ -86,7 +86,7 @@
             };
 
             //>>>Select random open-end
-            if ( api.fn.getCurrentPageIndex()==6) {
+            if ( api.fn.getCurrentPageIndex()==8) {
               var arrivalArray = ["Q14_selected", "Q18_selected", "Q25_selected", "Q39_selected", "Q48_selected", "Q53_selected" , "Q57_selected", "Q63_selected"];
               var randomItems = getRandomItems(arrivalArray, 4);
 
