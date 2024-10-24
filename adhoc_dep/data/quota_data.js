@@ -1,2106 +1,1405 @@
      let quota_info = ` 
 [
-     {
-        "period": "2024-10",
-        "quota_id": "3L015-BAH",
+    {
+        "period": "2024",
+        "quota_id": "3L-AMD",
         "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 20
+        "Dest": "AMD",
+        "Quota": 25
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L017-BAH",
-        "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 27
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L020-KWI",
-        "Terminal": "TA",
-        "Dest": "KWI",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L022-KWI",
-        "Terminal": "TA",
-        "Dest": "KWI",
-        "Quota": 27
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L032-AMM",
+        "period": "2024",
+        "quota_id": "3L-AMM",
         "Terminal": "TA",
         "Dest": "AMM",
         "Quota": 13
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L043-KTM",
+        "period": "2024",
+        "quota_id": "3L-BAH",
         "Terminal": "TA",
-        "Dest": "KTM",
-        "Quota": 30
+        "Dest": "BAH",
+        "Quota": 50
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L061-CGP",
+        "period": "2024",
+        "quota_id": "3L-BEY",
+        "Terminal": "TA",
+        "Dest": "BEY",
+        "Quota": 9
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-BGW",
+        "Terminal": "TA",
+        "Dest": "BGW",
+        "Quota": 9
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-CAI",
+        "Terminal": "TA",
+        "Dest": "CAI",
+        "Quota": 54
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-CCJ",
+        "Terminal": "TA",
+        "Dest": "CCJ",
+        "Quota": 65
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-CCU",
+        "Terminal": "TA",
+        "Dest": "CCU",
+        "Quota": 13
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-CGP",
         "Terminal": "TA",
         "Dest": "CGP",
         "Quota": 13
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L063-DAC",
+        "period": "2024",
+        "quota_id": "3L-CMB",
+        "Terminal": "TA",
+        "Dest": "CMB",
+        "Quota": 17
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-COK",
+        "Terminal": "TA",
+        "Dest": "COK",
+        "Quota": 70
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-DAC",
         "Terminal": "TA",
         "Dest": "DAC",
-        "Quota": 23
+        "Quota": 20
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L072-BGW",
+        "period": "2024",
+        "quota_id": "3L-DME",
         "Terminal": "TA",
-        "Dest": "BGW",
-        "Quota": 5
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L076-BGW",
-        "Terminal": "TA",
-        "Dest": "BGW",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L111-AMD",
-        "Terminal": "TA",
-        "Dest": "AMD",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L125-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L127-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L131-TRV",
-        "Terminal": "TA",
-        "Dest": "TRV",
-        "Quota": 5
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L133-TRV",
-        "Terminal": "TA",
-        "Dest": "TRV",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L141-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L143-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 4
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L1610-KTM",
-        "Terminal": "TA",
-        "Dest": "KTM",
-        "Quota": 7
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L166-CCU",
-        "Terminal": "TA",
-        "Dest": "CCU",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L183-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 7
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L200-CCJ",
-        "Terminal": "TA",
-        "Dest": "CCJ",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L203-CCJ",
-        "Terminal": "TA",
-        "Dest": "CCJ",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L248-TRV",
-        "Terminal": "TA",
-        "Dest": "TRV",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L251-MCT",
-        "Terminal": "TA",
-        "Dest": "MCT",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L253-MCT",
-        "Terminal": "TA",
-        "Dest": "MCT",
-        "Quota": 12
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L267-SLL",
-        "Terminal": "TA",
-        "Dest": "SLL",
+        "Dest": "DME",
         "Quota": 16
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L315-LYP",
+        "period": "2024",
+        "quota_id": "3L-GYD",
+        "Terminal": "TA",
+        "Dest": "GYD",
+        "Quota": 16
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-HBE",
+        "Terminal": "TA",
+        "Dest": "HBE",
+        "Quota": 13
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-HMB",
+        "Terminal": "TA",
+        "Dest": "HMB",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-KTM",
+        "Terminal": "TA",
+        "Dest": "KTM",
+        "Quota": 32
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-KWI",
+        "Terminal": "TA",
+        "Dest": "KWI",
+        "Quota": 50
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-LYP",
         "Terminal": "TA",
         "Dest": "LYP",
         "Quota": 8
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L335-MUX",
+        "period": "2024",
+        "quota_id": "3L-MAA",
         "Terminal": "TA",
-        "Dest": "MUX",
-        "Quota": 10
+        "Dest": "MAA",
+        "Quota": 37
     },
     {
-        "period": "2024-10",
-        "quota_id": "3L361-SAW",
+        "period": "2024",
+        "quota_id": "3L-MCT",
         "Terminal": "TA",
-        "Dest": "SAW",
-        "Quota": 4
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L363-SAW",
-        "Terminal": "TA",
-        "Dest": "SAW",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L401-HBE",
-        "Terminal": "TA",
-        "Dest": "HBE",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L413-HMB",
-        "Terminal": "TA",
-        "Dest": "HMB",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L422-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L424-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L431-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L450-BEY",
-        "Terminal": "TA",
-        "Dest": "BEY",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L452-BEY",
-        "Terminal": "TA",
-        "Dest": "BEY",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L461-CMB",
-        "Terminal": "TA",
-        "Dest": "CMB",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L476-SCT",
-        "Terminal": "TA",
-        "Dest": "SCT",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L690-TBS",
-        "Terminal": "TA",
-        "Dest": "TBS",
-        "Quota": 6
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L708-CMB",
-        "Terminal": "TA",
-        "Dest": "CMB",
-        "Quota": 4
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L714-TBS",
-        "Terminal": "TA",
-        "Dest": "TBS",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L730-GYD",
-        "Terminal": "TA",
-        "Dest": "GYD",
-        "Quota": 16
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "3L752-DME",
-        "Terminal": "TA",
-        "Dest": "DME",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W3488-CLJ",
-        "Terminal": "TA",
-        "Dest": "CLJ",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W4432-SOF",
-        "Terminal": "TA",
-        "Dest": "SOF",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7003-AMM",
-        "Terminal": "TA",
-        "Dest": "AMM",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7005-LCA",
-        "Terminal": "TA",
-        "Dest": "LCA",
-        "Quota": 27
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7007-ATH",
-        "Terminal": "TA",
-        "Dest": "ATH",
+        "Dest": "MCT",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7013-EVN",
+        "period": "2024",
+        "quota_id": "3L-MUX",
         "Terminal": "TA",
-        "Dest": "EVN",
-        "Quota": 23
+        "Dest": "MUX",
+        "Quota": 9
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7015-GYD",
+        "period": "2024",
+        "quota_id": "3L-SAW",
         "Terminal": "TA",
-        "Dest": "GYD",
+        "Dest": "SAW",
+        "Quota": 14
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-SCT",
+        "Terminal": "TA",
+        "Dest": "SCT",
+        "Quota": 9
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-SLL",
+        "Terminal": "TA",
+        "Dest": "SLL",
+        "Quota": 14
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-TAS",
+        "Terminal": "TA",
+        "Dest": "TAS",
+        "Quota": 7
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-TBS",
+        "Terminal": "TA",
+        "Dest": "TBS",
+        "Quota": 28
+    },
+    {
+        "period": "2024",
+        "quota_id": "3L-TRV",
+        "Terminal": "TA",
+        "Dest": "TRV",
+        "Quota": 75
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-ALA",
+        "Terminal": "TA",
+        "Dest": "ALA",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7017-HBE",
+        "period": "2024",
+        "quota_id": "5W-AMM",
         "Terminal": "TA",
-        "Dest": "HBE",
-        "Quota": 17
+        "Dest": "AMM",
+        "Quota": 20
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7033-DMM",
+        "period": "2024",
+        "quota_id": "5W-AQJ",
+        "Terminal": "TA",
+        "Dest": "AQJ",
+        "Quota": 13
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-ATH",
+        "Terminal": "TA",
+        "Dest": "ATH",
+        "Quota": 15
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-BEG",
+        "Terminal": "TA",
+        "Dest": "BEG",
+        "Quota": 20
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-CLJ",
+        "Terminal": "TA",
+        "Dest": "CLJ",
+        "Quota": 12
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-DMM",
         "Terminal": "TA",
         "Dest": "DMM",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7043-BEG",
+        "period": "2024",
+        "quota_id": "5W-EBL",
         "Terminal": "TA",
-        "Dest": "BEG",
+        "Dest": "EBL",
+        "Quota": 4
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-EVN",
+        "Terminal": "TA",
+        "Dest": "EVN",
+        "Quota": 53
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-FCO",
+        "Terminal": "TA",
+        "Dest": "FCO",
+        "Quota": 13
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-FRU",
+        "Terminal": "TA",
+        "Dest": "FRU",
+        "Quota": 23
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-GYD",
+        "Terminal": "TA",
+        "Dest": "GYD",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-HBE",
+        "Terminal": "TA",
+        "Dest": "HBE",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7049-FCO",
-        "Terminal": "TA",
-        "Dest": "FCO",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7065-HMB",
+        "period": "2024",
+        "quota_id": "5W-HMB",
         "Terminal": "TA",
         "Dest": "HMB",
-        "Quota": 11
+        "Quota": 10
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7071-AQJ",
+        "period": "2024",
+        "quota_id": "5W-HSA",
         "Terminal": "TA",
-        "Dest": "AQJ",
-        "Quota": 14
+        "Dest": "HSA",
+        "Quota": 13
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7077-ALA",
+        "period": "2024",
+        "quota_id": "5W-KIV",
         "Terminal": "TA",
-        "Dest": "ALA",
+        "Dest": "KIV",
         "Quota": 8
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7085-TLV",
+        "period": "2024",
+        "quota_id": "5W-KUT",
         "Terminal": "TA",
-        "Dest": "TLV",
-        "Quota": 22
+        "Dest": "KUT",
+        "Quota": 32
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7087-NQZ",
+        "period": "2024",
+        "quota_id": "5W-LCA",
+        "Terminal": "TA",
+        "Dest": "LCA",
+        "Quota": 19
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-MED",
+        "Terminal": "TA",
+        "Dest": "MED",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-MLE",
+        "Terminal": "TA",
+        "Dest": "MLE",
+        "Quota": 25
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-NQZ",
         "Terminal": "TA",
         "Dest": "NQZ",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7091-TIA",
-        "Terminal": "TA",
-        "Dest": "TIA",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7105-MLE",
-        "Terminal": "TA",
-        "Dest": "MLE",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7125-MED",
-        "Terminal": "TA",
-        "Dest": "MED",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7155-EBL",
-        "Terminal": "TA",
-        "Dest": "EBL",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7157-FRU",
-        "Terminal": "TA",
-        "Dest": "FRU",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7159-TAS",
-        "Terminal": "TA",
-        "Dest": "TAS",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7163-SKD",
+        "period": "2024",
+        "quota_id": "5W-SKD",
         "Terminal": "TA",
         "Dest": "SKD",
-        "Quota": 19
+        "Quota": 21
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7167-SPX",
+        "period": "2024",
+        "quota_id": "5W-SOF",
+        "Terminal": "TA",
+        "Dest": "SOF",
+        "Quota": 14
+    },
+    {
+        "period": "2024",
+        "quota_id": "5W-SPX",
         "Terminal": "TA",
         "Dest": "SPX",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7169-ALA",
+        "period": "2024",
+        "quota_id": "5W-TAS",
         "Terminal": "TA",
-        "Dest": "ALA",
-        "Quota": 23
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7179-GYD",
-        "Terminal": "TA",
-        "Dest": "GYD",
+        "Dest": "TAS",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7185-KUT",
+        "period": "2024",
+        "quota_id": "5W-TIA",
         "Terminal": "TA",
-        "Dest": "KUT",
-        "Quota": 31
+        "Dest": "TIA",
+        "Quota": 13
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7187-EVN",
+        "period": "2024",
+        "quota_id": "5W-TLV",
         "Terminal": "TA",
-        "Dest": "EVN",
-        "Quota": 27
+        "Dest": "TLV",
+        "Quota": 11
     },
     {
-        "period": "2024-10",
-        "quota_id": "5W7199-MED",
-        "Terminal": "TA",
-        "Dest": "MED",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "5W7201-HSA",
-        "Terminal": "TA",
-        "Dest": "HSA",
-        "Quota": 10
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1402-BOM",
-        "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1404-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1406-DEL",
-        "Terminal": "TA",
-        "Dest": "DEL",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1408-HYD",
-        "Terminal": "TA",
-        "Dest": "HYD",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1412-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 23
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1414-BOM",
-        "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1416-LKO",
-        "Terminal": "TA",
-        "Dest": "LKO",
-        "Quota": 27
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1417-IXC",
-        "Terminal": "TA",
-        "Dest": "IXC",
-        "Quota": 27
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1432-AMD",
+        "period": "2024",
+        "quota_id": "6E-AMD",
         "Terminal": "TA",
         "Dest": "AMD",
-        "Quota": 33
+        "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "6E1434-CNN",
+        "period": "2024",
+        "quota_id": "6E-BLR",
+        "Terminal": "TA",
+        "Dest": "BLR",
+        "Quota": 29
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-BOM",
+        "Terminal": "TA",
+        "Dest": "BOM",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-CJB",
+        "Terminal": "TA",
+        "Dest": "CJB",
+        "Quota": 6
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-CNN",
         "Terminal": "TA",
         "Dest": "CNN",
         "Quota": 30
     },
     {
-        "period": "2024-10",
-        "quota_id": "6E1439-BLR",
+        "period": "2024",
+        "quota_id": "6E-COK",
         "Terminal": "TA",
-        "Dest": "BLR",
-        "Quota": 28
+        "Dest": "COK",
+        "Quota": 29
     },
     {
-        "period": "2024-10",
-        "quota_id": "6E1443-IXE",
+        "period": "2024",
+        "quota_id": "6E-DEL",
+        "Terminal": "TA",
+        "Dest": "DEL",
+        "Quota": 32
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-GOX",
+        "Terminal": "TA",
+        "Dest": "GOX",
+        "Quota": 18
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-HYD",
+        "Terminal": "TA",
+        "Dest": "HYD",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-IXC",
+        "Terminal": "TA",
+        "Dest": "IXC",
+        "Quota": 11
+    },
+    {
+        "period": "2024",
+        "quota_id": "6E-IXE",
         "Terminal": "TA",
         "Dest": "IXE",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "6E1457-LKO",
+        "period": "2024",
+        "quota_id": "6E-LKO",
         "Terminal": "TA",
         "Dest": "LKO",
-        "Quota": 5
+        "Quota": 48
     },
     {
-        "period": "2024-10",
-        "quota_id": "6E1459-MAA",
+        "period": "2024",
+        "quota_id": "6E-MAA",
         "Terminal": "TA",
         "Dest": "MAA",
-        "Quota": 7
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1494-TRZ",
-        "Terminal": "TA",
-        "Dest": "TRZ",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6E1498-CJB",
-        "Terminal": "TA",
-        "Dest": "CJB",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6Q732-DAM",
-        "Terminal": "TA",
-        "Dest": "DAM",
-        "Quota": 4
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "6Q734-DAM",
-        "Terminal": "TA",
-        "Dest": "DAM",
-        "Quota": 5
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "AF639-CDG",
-        "Terminal": "TA",
-        "Dest": "CDG",
         "Quota": 28
     },
     {
-        "period": "2024-10",
-        "quota_id": "BA072-LHR",
+        "period": "2024",
+        "quota_id": "6E-TRZ",
         "Terminal": "TA",
-        "Dest": "LHR",
-        "Quota": 31
+        "Dest": "TRZ",
+        "Quota": 7
     },
     {
-        "period": "2024-10",
-        "quota_id": "BG128-DAC",
+        "period": "2024",
+        "quota_id": "6Q-DAM",
         "Terminal": "TA",
-        "Dest": "DAC",
+        "Dest": "DAM",
+        "Quota": 9
+    },
+    {
+        "period": "2024",
+        "quota_id": "A3-ATH",
+        "Terminal": "TA",
+        "Dest": "ATH",
+        "Quota": 8
+    },
+    {
+        "period": "2024",
+        "quota_id": "AF-CDG",
+        "Terminal": "TA",
+        "Dest": "CDG",
         "Quota": 13
     },
     {
-        "period": "2024-10",
-        "quota_id": "BG228-DAC",
+        "period": "2024",
+        "quota_id": "AI-BOM",
         "Terminal": "TA",
-        "Dest": "DAC",
-        "Quota": 5
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "BG328-DAC",
-        "Terminal": "TA",
-        "Dest": "DAC",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "BS350-DAC",
-        "Terminal": "TA",
-        "Dest": "DAC",
-        "Quota": 24
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "DP754-VKO",
-        "Terminal": "TA",
-        "Dest": "VKO",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "DP760-MCX",
-        "Terminal": "TA",
-        "Dest": "MCX",
+        "Dest": "BOM",
         "Quota": 10
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY001-JFK",
-        "Terminal": "TA",
-        "Dest": "JFK",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY003-JFK",
-        "Terminal": "TA",
-        "Dest": "JFK",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY005-IAD",
-        "Terminal": "TA",
-        "Dest": "IAD",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY007-BOS",
-        "Terminal": "TA",
-        "Dest": "BOS",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY009-ORD",
-        "Terminal": "TA",
-        "Dest": "ORD",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY011-LHR",
+        "period": "2024",
+        "quota_id": "BA-LHR",
         "Terminal": "TA",
         "Dest": "LHR",
-        "Quota": 33
+        "Quota": 30
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY015-MAN",
+        "period": "2024",
+        "quota_id": "BG-DAC",
         "Terminal": "TA",
-        "Dest": "MAN",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY017-LHR",
-        "Terminal": "TA",
-        "Dest": "LHR",
+        "Dest": "DAC",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY019-LHR",
+        "period": "2024",
+        "quota_id": "BS-DAC",
         "Terminal": "TA",
-        "Dest": "LHR",
-        "Quota": 31
+        "Dest": "DAC",
+        "Quota": 28
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY021-YYZ",
+        "period": "2024",
+        "quota_id": "DP-MCX",
         "Terminal": "TA",
-        "Dest": "YYZ",
-        "Quota": 31
+        "Dest": "MCX",
+        "Quota": 9
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY025-LHR",
+        "period": "2024",
+        "quota_id": "DP-VKO",
         "Terminal": "TA",
-        "Dest": "LHR",
-        "Quota": 31
+        "Dest": "VKO",
+        "Quota": 25
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY031-CDG",
+        "period": "2024",
+        "quota_id": "EY-AMD",
         "Terminal": "TA",
-        "Dest": "CDG",
-        "Quota": 33
+        "Dest": "AMD",
+        "Quota": 75
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY041-AMS",
+        "period": "2024",
+        "quota_id": "EY-AMM",
+        "Terminal": "TA",
+        "Dest": "AMM",
+        "Quota": 52
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-AMS",
         "Terminal": "TA",
         "Dest": "AMS",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY045-DUB",
+        "period": "2024",
+        "quota_id": "EY-ATH",
         "Terminal": "TA",
-        "Dest": "DUB",
-        "Quota": 33
+        "Dest": "ATH",
+        "Quota": 46
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY055-DUB",
+        "period": "2024",
+        "quota_id": "EY-AUH",
         "Terminal": "TA",
-        "Dest": "DUB",
-        "Quota": 14
+        "Dest": "AUH",
+        "Quota": 5
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY057-BRU",
+        "period": "2024",
+        "quota_id": "EY-BAH",
+        "Terminal": "TA",
+        "Dest": "BAH",
+        "Quota": 90
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BCN",
+        "Terminal": "TA",
+        "Dest": "BCN",
+        "Quota": 44
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BEY",
+        "Terminal": "TA",
+        "Dest": "BEY",
+        "Quota": 23
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BKK",
+        "Terminal": "TA",
+        "Dest": "BKK",
+        "Quota": 87
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BLR",
+        "Terminal": "TA",
+        "Dest": "BLR",
+        "Quota": 77
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BOM",
+        "Terminal": "TA",
+        "Dest": "BOM",
+        "Quota": 124
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BOS",
+        "Terminal": "TA",
+        "Dest": "BOS",
+        "Quota": 24
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-BRU",
         "Terminal": "TA",
         "Dest": "BRU",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY063-LIS",
-        "Terminal": "TA",
-        "Dest": "LIS",
-        "Quota": 19
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY079-MXP",
-        "Terminal": "TA",
-        "Dest": "MXP",
-        "Quota": 12
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY081-MXP",
-        "Terminal": "TA",
-        "Dest": "MXP",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY083-FCO",
-        "Terminal": "TA",
-        "Dest": "FCO",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY085-FCO",
-        "Terminal": "TA",
-        "Dest": "FCO",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY101-MAD",
-        "Terminal": "TA",
-        "Dest": "MAD",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY103-MAD",
-        "Terminal": "TA",
-        "Dest": "MAD",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY111-BCN",
-        "Terminal": "TA",
-        "Dest": "BCN",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY113-BCN",
-        "Terminal": "TA",
-        "Dest": "BCN",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY121-FRA",
-        "Terminal": "TA",
-        "Dest": "FRA",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY123-FRA",
-        "Terminal": "TA",
-        "Dest": "FRA",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY125-MUC",
-        "Terminal": "TA",
-        "Dest": "MUC",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY127-MUC",
-        "Terminal": "TA",
-        "Dest": "MUC",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY143-ZRH",
-        "Terminal": "TA",
-        "Dest": "ZRH",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY145-GVA",
-        "Terminal": "TA",
-        "Dest": "GVA",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY153-VIE",
-        "Terminal": "TA",
-        "Dest": "VIE",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY177-CPH",
-        "Terminal": "TA",
-        "Dest": "CPH",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY187-ATH",
-        "Terminal": "TA",
-        "Dest": "ATH",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY189-ATH",
+        "period": "2024",
+        "quota_id": "EY-CAI",
         "Terminal": "TA",
-        "Dest": "ATH",
-        "Quota": 31
+        "Dest": "CAI",
+        "Quota": 124
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY196-BOM",
+        "period": "2024",
+        "quota_id": "EY-CAN",
         "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 33
+        "Dest": "CAN",
+        "Quota": 7
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY200-KHI",
-        "Terminal": "TA",
-        "Dest": "KHI",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY204-BOM",
-        "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY206-BOM",
-        "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY208-BOM",
-        "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY210-DEL",
-        "Terminal": "TA",
-        "Dest": "DEL",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY212-DEL",
-        "Terminal": "TA",
-        "Dest": "DEL",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY216-BLR",
-        "Terminal": "TA",
-        "Dest": "BLR",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY218-DEL",
-        "Terminal": "TA",
-        "Dest": "DEL",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY221-KHI",
-        "Terminal": "TA",
-        "Dest": "KHI",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY224-DEL",
-        "Terminal": "TA",
-        "Dest": "DEL",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY231-ISB",
-        "Terminal": "TA",
-        "Dest": "ISB",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY233-ISB",
-        "Terminal": "TA",
-        "Dest": "ISB",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY236-BLR",
-        "Terminal": "TA",
-        "Dest": "BLR",
-        "Quota": 19
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY238-BLR",
-        "Terminal": "TA",
-        "Dest": "BLR",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY241-LHE",
-        "Terminal": "TA",
-        "Dest": "LHE",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY243-LHE",
-        "Terminal": "TA",
-        "Dest": "LHE",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY246-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY248-CCJ",
+        "period": "2024",
+        "quota_id": "EY-CCJ",
         "Terminal": "TA",
         "Dest": "CCJ",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY252-AMD",
-        "Terminal": "TA",
-        "Dest": "AMD",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY254-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY256-CCU",
+        "period": "2024",
+        "quota_id": "EY-CCU",
         "Terminal": "TA",
         "Dest": "CCU",
-        "Quota": 17
+        "Quota": 35
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY258-CCU",
+        "period": "2024",
+        "quota_id": "EY-CDG",
         "Terminal": "TA",
-        "Dest": "CCU",
-        "Quota": 19
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY260-MLE",
-        "Terminal": "TA",
-        "Dest": "MLE",
+        "Dest": "CDG",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY262-TRV",
-        "Terminal": "TA",
-        "Dest": "TRV",
-        "Quota": 23
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY264-TRV",
-        "Terminal": "TA",
-        "Dest": "TRV",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY268-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY270-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY272-MAA",
-        "Terminal": "TA",
-        "Dest": "MAA",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY274-HYD",
-        "Terminal": "TA",
-        "Dest": "HYD",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY276-HYD",
-        "Terminal": "TA",
-        "Dest": "HYD",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY278-MLE",
-        "Terminal": "TA",
-        "Dest": "MLE",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY280-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY282-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY284-AMD",
-        "Terminal": "TA",
-        "Dest": "AMD",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY286-AMD",
-        "Terminal": "TA",
-        "Dest": "AMD",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY288-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY311-JED",
-        "Terminal": "TA",
-        "Dest": "JED",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY313-JED",
-        "Terminal": "TA",
-        "Dest": "JED",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY315-RUH",
-        "Terminal": "TA",
-        "Dest": "RUH",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY317-RUH",
-        "Terminal": "TA",
-        "Dest": "RUH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY321-DMM",
-        "Terminal": "TA",
-        "Dest": "DMM",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY323-DMM",
-        "Terminal": "TA",
-        "Dest": "DMM",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY325-DMM",
-        "Terminal": "TA",
-        "Dest": "DMM",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY327-DMM",
-        "Terminal": "TA",
-        "Dest": "DMM",
-        "Quota": 19
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY329-JED",
-        "Terminal": "TA",
-        "Dest": "JED",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY333-JED",
-        "Terminal": "TA",
-        "Dest": "JED",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY351-RUH",
-        "Terminal": "TA",
-        "Dest": "RUH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY357-RUH",
-        "Terminal": "TA",
-        "Dest": "RUH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY366-JAI",
-        "Terminal": "TA",
-        "Dest": "JAI",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY390-CMB",
-        "Terminal": "TA",
-        "Dest": "CMB",
-        "Quota": 27
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY392-CMB",
-        "Terminal": "TA",
-        "Dest": "CMB",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY394-CMB",
-        "Terminal": "TA",
-        "Dest": "CMB",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY396-CMB",
-        "Terminal": "TA",
-        "Dest": "CMB",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY404-BKK",
-        "Terminal": "TA",
-        "Dest": "BKK",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY406-BKK",
-        "Terminal": "TA",
-        "Dest": "BKK",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY408-BKK",
-        "Terminal": "TA",
-        "Dest": "BKK",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY416-KUL",
-        "Terminal": "TA",
-        "Dest": "KUL",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY418-KUL",
-        "Terminal": "TA",
-        "Dest": "KUL",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY424-MNL",
-        "Terminal": "TA",
-        "Dest": "MNL",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY428-MNL",
-        "Terminal": "TA",
-        "Dest": "MNL",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY430-HKT",
-        "Terminal": "TA",
-        "Dest": "HKT",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY432-HKT",
-        "Terminal": "TA",
-        "Dest": "HKT",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY450-SYD",
-        "Terminal": "TA",
-        "Dest": "SYD",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY454-SYD",
-        "Terminal": "TA",
-        "Dest": "SYD",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY460-MEL",
-        "Terminal": "TA",
-        "Dest": "MEL",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY462-MEL",
-        "Terminal": "TA",
-        "Dest": "MEL",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY472-CGK",
+        "period": "2024",
+        "quota_id": "EY-CGK",
         "Terminal": "TA",
         "Dest": "CGK",
-        "Quota": 14
+        "Quota": 45
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY474-CGK",
+        "period": "2024",
+        "quota_id": "EY-CMB",
         "Terminal": "TA",
-        "Dest": "CGK",
-        "Quota": 33
+        "Dest": "CMB",
+        "Quota": 119
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY476-DPS",
-        "Terminal": "TA",
-        "Dest": "DPS",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY496-SIN",
-        "Terminal": "TA",
-        "Dest": "SIN",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY513-AMM",
-        "Terminal": "TA",
-        "Dest": "AMM",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY535-BEY",
-        "Terminal": "TA",
-        "Dest": "BEY",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY541-IST",
-        "Terminal": "TA",
-        "Dest": "IST",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY543-IST",
-        "Terminal": "TA",
-        "Dest": "IST",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY589-AMM",
-        "Terminal": "TA",
-        "Dest": "AMM",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY593-TLV",
-        "Terminal": "TA",
-        "Dest": "TLV",
-        "Quota": 17
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY595-TLV",
-        "Terminal": "TA",
-        "Dest": "TLV",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY627-ELQ",
-        "Terminal": "TA",
-        "Dest": "ELQ",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY641-BAH",
-        "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY643-BAH",
-        "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 19
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY645-BAH",
-        "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY647-BAH",
-        "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 18
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY651-KWI",
-        "Terminal": "TA",
-        "Dest": "KWI",
-        "Quota": 24
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY653-KWI",
-        "Terminal": "TA",
-        "Dest": "KWI",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY655-KWI",
-        "Terminal": "TA",
-        "Dest": "KWI",
-        "Quota": 29
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY657-KWI",
-        "Terminal": "TA",
-        "Dest": "KWI",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY661-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY663-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY667-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY669-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY690-MCT",
-        "Terminal": "TA",
-        "Dest": "MCT",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY692-MCT",
-        "Terminal": "TA",
-        "Dest": "MCT",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY694-MCT",
-        "Terminal": "TA",
-        "Dest": "MCT",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY696-MCT",
-        "Terminal": "TA",
-        "Dest": "MCT",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY700-SEZ",
-        "Terminal": "TA",
-        "Dest": "SEZ",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY711-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY713-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY715-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY717-CAI",
-        "Terminal": "TA",
-        "Dest": "CAI",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY747-JNB",
-        "Terminal": "TA",
-        "Dest": "JNB",
-        "Quota": 23
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY757-CMN",
+        "period": "2024",
+        "quota_id": "EY-CMN",
         "Terminal": "TA",
         "Dest": "CMN",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY814-KIX",
+        "period": "2024",
+        "quota_id": "EY-COK",
         "Terminal": "TA",
-        "Dest": "KIX",
-        "Quota": 23
+        "Dest": "COK",
+        "Quota": 92
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY843-SVO",
+        "period": "2024",
+        "quota_id": "EY-CPH",
         "Terminal": "TA",
-        "Dest": "SVO",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY851-LED",
-        "Terminal": "TA",
-        "Dest": "LED",
-        "Quota": 8
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY856-ICN",
-        "Terminal": "TA",
-        "Dest": "ICN",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "EY858-ICN",
-        "Terminal": "TA",
-        "Dest": "ICN",
+        "Dest": "CPH",
         "Quota": 17
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY862-PVG",
+        "period": "2024",
+        "quota_id": "EY-DEL",
         "Terminal": "TA",
-        "Dest": "PVG",
-        "Quota": 22
+        "Dest": "DEL",
+        "Quota": 122
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY878-NRT",
+        "period": "2024",
+        "quota_id": "EY-DMM",
         "Terminal": "TA",
-        "Dest": "NRT",
-        "Quota": 31
+        "Dest": "DMM",
+        "Quota": 94
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY888-PKX",
+        "period": "2024",
+        "quota_id": "EY-DOH",
         "Terminal": "TA",
-        "Dest": "PKX",
-        "Quota": 23
+        "Dest": "DOH",
+        "Quota": 122
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY947-HKG",
+        "period": "2024",
+        "quota_id": "EY-DPS",
+        "Terminal": "TA",
+        "Dest": "DPS",
+        "Quota": 18
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-DUB",
+        "Terminal": "TA",
+        "Dest": "DUB",
+        "Quota": 37
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-DUS",
+        "Terminal": "TA",
+        "Dest": "DUS",
+        "Quota": 8
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-ELQ",
+        "Terminal": "TA",
+        "Dest": "ELQ",
+        "Quota": 18
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-FCO",
+        "Terminal": "TA",
+        "Dest": "FCO",
+        "Quota": 53
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-FRA",
+        "Terminal": "TA",
+        "Dest": "FRA",
+        "Quota": 51
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-GVA",
+        "Terminal": "TA",
+        "Dest": "GVA",
+        "Quota": 29
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-HKG",
         "Terminal": "TA",
         "Dest": "HKG",
         "Quota": 4
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY9646-CAN",
+        "period": "2024",
+        "quota_id": "EY-HKT",
         "Terminal": "TA",
-        "Dest": "CAN",
-        "Quota": 5
+        "Dest": "HKT",
+        "Quota": 74
     },
     {
-        "period": "2024-10",
-        "quota_id": "EY9857-HKG",
+        "period": "2024",
+        "quota_id": "EY-HYD",
         "Terminal": "TA",
-        "Dest": "HKG",
-        "Quota": 7
+        "Dest": "HYD",
+        "Quota": 62
     },
     {
-        "period": "2024-10",
-        "quota_id": "GF541-BAH",
+        "period": "2024",
+        "quota_id": "EY-IAD",
         "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "GF545-BAH",
-        "Terminal": "TA",
-        "Dest": "BAH",
+        "Dest": "IAD",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "GF547-BAH",
+        "period": "2024",
+        "quota_id": "EY-ICN",
         "Terminal": "TA",
-        "Dest": "BAH",
-        "Quota": 31
+        "Dest": "ICN",
+        "Quota": 48
     },
     {
-        "period": "2024-10",
-        "quota_id": "HM021-SEZ",
+        "period": "2024",
+        "quota_id": "EY-ISB",
         "Terminal": "TA",
-        "Dest": "SEZ",
-        "Quota": 11
+        "Dest": "ISB",
+        "Quota": 62
     },
     {
-        "period": "2024-10",
-        "quota_id": "HU764-HAK",
+        "period": "2024",
+        "quota_id": "EY-IST",
         "Terminal": "TA",
-        "Dest": "HAK",
-        "Quota": 10
+        "Dest": "IST",
+        "Quota": 62
     },
     {
-        "period": "2024-10",
-        "quota_id": "IX296-BOM",
+        "period": "2024",
+        "quota_id": "EY-JAI",
         "Terminal": "TA",
-        "Dest": "BOM",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "IX348-CCJ",
-        "Terminal": "TA",
-        "Dest": "CCJ",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "IX420-COK",
-        "Terminal": "TA",
-        "Dest": "COK",
-        "Quota": 30
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "IX538-TRV",
-        "Terminal": "TA",
-        "Dest": "TRV",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "IX640-TRZ",
-        "Terminal": "TA",
-        "Dest": "TRZ",
-        "Quota": 13
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "IX716-CNN",
-        "Terminal": "TA",
-        "Dest": "CNN",
-        "Quota": 28
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "IX718-CNN",
-        "Terminal": "TA",
-        "Dest": "CNN",
+        "Dest": "JAI",
         "Quota": 17
     },
     {
-        "period": "2024-10",
-        "quota_id": "IX816-IXE",
+        "period": "2024",
+        "quota_id": "EY-JED",
         "Terminal": "TA",
-        "Dest": "IXE",
+        "Dest": "JED",
+        "Quota": 123
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-JFK",
+        "Terminal": "TA",
+        "Dest": "JFK",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-JNB",
+        "Terminal": "TA",
+        "Dest": "JNB",
+        "Quota": 17
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-KHI",
+        "Terminal": "TA",
+        "Dest": "KHI",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-KIX",
+        "Terminal": "TA",
+        "Dest": "KIX",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "IX820-IXE",
+        "period": "2024",
+        "quota_id": "EY-KUL",
         "Terminal": "TA",
-        "Dest": "IXE",
-        "Quota": 13
+        "Dest": "KUL",
+        "Quota": 62
     },
     {
-        "period": "2024-10",
-        "quota_id": "IX838-BLR",
+        "period": "2024",
+        "quota_id": "EY-KWI",
+        "Terminal": "TA",
+        "Dest": "KWI",
+        "Quota": 118
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-LED",
+        "Terminal": "TA",
+        "Dest": "LED",
+        "Quota": 11
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-LHE",
+        "Terminal": "TA",
+        "Dest": "LHE",
+        "Quota": 49
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-LHR",
+        "Terminal": "TA",
+        "Dest": "LHR",
+        "Quota": 123
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-LIS",
+        "Terminal": "TA",
+        "Dest": "LIS",
+        "Quota": 22
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MAA",
+        "Terminal": "TA",
+        "Dest": "MAA",
+        "Quota": 93
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MAD",
+        "Terminal": "TA",
+        "Dest": "MAD",
+        "Quota": 45
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MAN",
+        "Terminal": "TA",
+        "Dest": "MAN",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MCT",
+        "Terminal": "TA",
+        "Dest": "MCT",
+        "Quota": 121
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MEL",
+        "Terminal": "TA",
+        "Dest": "MEL",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MLE",
+        "Terminal": "TA",
+        "Dest": "MLE",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MNL",
+        "Terminal": "TA",
+        "Dest": "MNL",
+        "Quota": 62
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MUC",
+        "Terminal": "TA",
+        "Dest": "MUC",
+        "Quota": 44
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-MXP",
+        "Terminal": "TA",
+        "Dest": "MXP",
+        "Quota": 44
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-NGO",
+        "Terminal": "TA",
+        "Dest": "NGO",
+        "Quota": 10
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-NRT",
+        "Terminal": "TA",
+        "Dest": "NRT",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-ORD",
+        "Terminal": "TA",
+        "Dest": "ORD",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-PKX",
+        "Terminal": "TA",
+        "Dest": "PKX",
+        "Quota": 18
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-PVG",
+        "Terminal": "TA",
+        "Dest": "PVG",
+        "Quota": 27
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-RUH",
+        "Terminal": "TA",
+        "Dest": "RUH",
+        "Quota": 123
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-SEZ",
+        "Terminal": "TA",
+        "Dest": "SEZ",
+        "Quota": 9
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-SIN",
+        "Terminal": "TA",
+        "Dest": "SIN",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-SVO",
+        "Terminal": "TA",
+        "Dest": "SVO",
+        "Quota": 49
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-SYD",
+        "Terminal": "TA",
+        "Dest": "SYD",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-TLV",
+        "Terminal": "TA",
+        "Dest": "TLV",
+        "Quota": 38
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-TRV",
+        "Terminal": "TA",
+        "Dest": "TRV",
+        "Quota": 44
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-VIE",
+        "Terminal": "TA",
+        "Dest": "VIE",
+        "Quota": 30
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-YYZ",
+        "Terminal": "TA",
+        "Dest": "YYZ",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-ZRH",
+        "Terminal": "TA",
+        "Dest": "ZRH",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "GF-BAH",
+        "Terminal": "TA",
+        "Dest": "BAH",
+        "Quota": 83
+    },
+    {
+        "period": "2024",
+        "quota_id": "H9-KTM",
+        "Terminal": "TA",
+        "Dest": "KTM",
+        "Quota": 18
+    },
+    {
+        "period": "2024",
+        "quota_id": "HM-SEZ",
+        "Terminal": "TA",
+        "Dest": "SEZ",
+        "Quota": 4
+    },
+    {
+        "period": "2024",
+        "quota_id": "HU-HAK",
+        "Terminal": "TA",
+        "Dest": "HAK",
+        "Quota": 9
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-BLR",
         "Terminal": "TA",
         "Dest": "BLR",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "J4627-PZU",
+        "period": "2024",
+        "quota_id": "IX-BOM",
         "Terminal": "TA",
-        "Dest": "PZU",
+        "Dest": "BOM",
+        "Quota": 48
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-CCJ",
+        "Terminal": "TA",
+        "Dest": "CCJ",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-CNN",
+        "Terminal": "TA",
+        "Dest": "CNN",
+        "Quota": 45
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-COK",
+        "Terminal": "TA",
+        "Dest": "COK",
+        "Quota": 31
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-IXE",
+        "Terminal": "TA",
+        "Dest": "IXE",
+        "Quota": 30
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-STV",
+        "Terminal": "TA",
+        "Dest": "STV",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "ME419-BEY",
+        "period": "2024",
+        "quota_id": "IX-TRV",
+        "Terminal": "TA",
+        "Dest": "TRV",
+        "Quota": 30
+    },
+    {
+        "period": "2024",
+        "quota_id": "IX-TRZ",
+        "Terminal": "TA",
+        "Dest": "TRZ",
+        "Quota": 13
+    },
+    {
+        "period": "2024",
+        "quota_id": "J4-PZU",
+        "Terminal": "TA",
+        "Dest": "PZU",
+        "Quota": 14
+    },
+    {
+        "period": "2024",
+        "quota_id": "KC-NQZ",
+        "Terminal": "TA",
+        "Dest": "NQZ",
+        "Quota": 5
+    },
+    {
+        "period": "2024",
+        "quota_id": "ME-BEY",
         "Terminal": "TA",
         "Dest": "BEY",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "MS915-CAI",
+        "period": "2024",
+        "quota_id": "MS-CAI",
         "Terminal": "TA",
         "Dest": "CAI",
-        "Quota": 31
+        "Quota": 56
     },
     {
-        "period": "2024-10",
-        "quota_id": "MS917-CAI",
+        "period": "2024",
+        "quota_id": "PA-ISB",
         "Terminal": "TA",
-        "Dest": "CAI",
+        "Dest": "ISB",
         "Quota": 20
     },
     {
-        "period": "2024-10",
-        "quota_id": "PA231-ISB",
+        "period": "2024",
+        "quota_id": "PA-LHE",
         "Terminal": "TA",
-        "Dest": "ISB",
+        "Dest": "LHE",
+        "Quota": 16
+    },
+    {
+        "period": "2024",
+        "quota_id": "PC-SAW",
+        "Terminal": "TA",
+        "Dest": "SAW",
         "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "PA431-LHE",
-        "Terminal": "TA",
-        "Dest": "LHE",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "PC407-SAW",
-        "Terminal": "TA",
-        "Dest": "SAW",
-        "Quota": 19
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "PK178-SKT",
-        "Terminal": "TA",
-        "Dest": "SKT",
-        "Quota": 14
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "PK218-PEW",
-        "Terminal": "TA",
-        "Dest": "PEW",
-        "Quota": 33
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "PK262-ISB",
+        "period": "2024",
+        "quota_id": "PK-ISB",
         "Terminal": "TA",
         "Dest": "ISB",
-        "Quota": 31
+        "Quota": 32
     },
     {
-        "period": "2024-10",
-        "quota_id": "PK264-LHE",
+        "period": "2024",
+        "quota_id": "PK-LHE",
         "Terminal": "TA",
         "Dest": "LHE",
-        "Quota": 5
+        "Quota": 14
     },
     {
-        "period": "2024-10",
-        "quota_id": "QP585-BOM",
+        "period": "2024",
+        "quota_id": "PK-PEW",
+        "Terminal": "TA",
+        "Dest": "PEW",
+        "Quota": 28
+    },
+    {
+        "period": "2024",
+        "quota_id": "PK-SKT",
+        "Terminal": "TA",
+        "Dest": "SKT",
+        "Quota": 11
+    },
+    {
+        "period": "2024",
+        "quota_id": "QP-BOM",
         "Terminal": "TA",
         "Dest": "BOM",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "QR1041-DOH",
+        "period": "2024",
+        "quota_id": "QR-DOH",
         "Terminal": "TA",
         "Dest": "DOH",
-        "Quota": 31
+        "Quota": 154
     },
     {
-        "period": "2024-10",
-        "quota_id": "QR1045-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "QR1051-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "QR1053-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "QR1055-DOH",
-        "Terminal": "TA",
-        "Dest": "DOH",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "RB504-DAM",
+        "period": "2024",
+        "quota_id": "RB-DAM",
         "Terminal": "TA",
         "Dest": "DAM",
-        "Quota": 5
+        "Quota": 10
     },
     {
-        "period": "2024-10",
-        "quota_id": "RB508-DAM",
-        "Terminal": "TA",
-        "Dest": "DAM",
-        "Quota": 5
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "RJ621-AMM",
+        "period": "2024",
+        "quota_id": "RJ-AMM",
         "Terminal": "TA",
         "Dest": "AMM",
-        "Quota": 12
+        "Quota": 38
     },
     {
-        "period": "2024-10",
-        "quota_id": "RJ623-AMM",
-        "Terminal": "TA",
-        "Dest": "AMM",
-        "Quota": 22
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "RQ904-KBL",
+        "period": "2024",
+        "quota_id": "RQ-KBL",
         "Terminal": "TA",
         "Dest": "KBL",
-        "Quota": 19
+        "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "SU531-SVO",
+        "period": "2024",
+        "quota_id": "RQ-KHT",
+        "Terminal": "TA",
+        "Dest": "KHT",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
+        "quota_id": "SU-SVO",
         "Terminal": "TA",
         "Dest": "SVO",
-        "Quota": 25
+        "Quota": 28
     },
     {
-        "period": "2024-10",
-        "quota_id": "SV571-JED",
+        "period": "2024",
+        "quota_id": "SV-JED",
         "Terminal": "TA",
         "Dest": "JED",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "SV573-RUH",
+        "period": "2024",
+        "quota_id": "SV-RUH",
         "Terminal": "TA",
         "Dest": "RUH",
-        "Quota": 31
+        "Quota": 39
     },
     {
-        "period": "2024-10",
-        "quota_id": "T5826-ASB",
+        "period": "2024",
+        "quota_id": "T5-ASB",
         "Terminal": "TA",
         "Dest": "ASB",
         "Quota": 5
     },
     {
-        "period": "2024-10",
-        "quota_id": "TK867-IST",
+        "period": "2024",
+        "quota_id": "TK-IST",
         "Terminal": "TA",
         "Dest": "IST",
-        "Quota": 7
+        "Quota": 40
     },
     {
-        "period": "2024-10",
-        "quota_id": "TK869-IST",
-        "Terminal": "TA",
-        "Dest": "IST",
-        "Quota": 31
-    },
-    {
-        "period": "2024-10",
-        "quota_id": "UK256-BOM",
+        "period": "2024",
+        "quota_id": "UK-BOM",
         "Terminal": "TA",
         "Dest": "BOM",
-        "Quota": 33
+        "Quota": 21
     },
     {
-        "period": "2024-10",
-        "quota_id": "UL208-CMB",
+        "period": "2024",
+        "quota_id": "UL-CMB",
         "Terminal": "TA",
         "Dest": "CMB",
-        "Quota": 31
+        "Quota": 28
     },
     {
-        "period": "2024-10",
-        "quota_id": "W42982-VIE",
+        "period": "2024",
+        "quota_id": "W4-FCO",
         "Terminal": "TA",
-        "Dest": "VIE",
-        "Quota": 13
+        "Dest": "FCO",
+        "Quota": 17
     },
     {
-        "period": "2024-10",
-        "quota_id": "W43266-OTP",
+        "period": "2024",
+        "quota_id": "W4-OTP",
         "Terminal": "TA",
         "Dest": "OTP",
-        "Quota": 13
+        "Quota": 23
     },
     {
-        "period": "2024-10",
-        "quota_id": "W61276-KTW",
+        "period": "2024",
+        "quota_id": "W4-VIE",
         "Terminal": "TA",
-        "Dest": "KTW",
-        "Quota": 14
+        "Dest": "VIE",
+        "Quota": 18
     },
     {
-        "period": "2024-10",
-        "quota_id": "W62094-KRK",
+        "period": "2024",
+        "quota_id": "W6-BUD",
+        "Terminal": "TA",
+        "Dest": "BUD",
+        "Quota": 20
+    },
+    {
+        "period": "2024",
+        "quota_id": "W6-KRK",
         "Terminal": "TA",
         "Dest": "KRK",
         "Quota": 17
     },
     {
-        "period": "2024-10",
-        "quota_id": "W62358-BUD",
+        "period": "2024",
+        "quota_id": "W6-KTW",
         "Terminal": "TA",
-        "Dest": "BUD",
-        "Quota": 18
+        "Dest": "KTW",
+        "Quota": 19
     },
     {
-        "period": "2024-10",
-        "quota_id": "XY518-JED",
+        "period": "2024",
+        "quota_id": "XY-JED",
         "Terminal": "TA",
         "Dest": "JED",
         "Quota": 31
     },
     {
-        "period": "2024-10",
-        "quota_id": "XY808-MED",
+        "period": "2024",
+        "quota_id": "XY-MED",
         "Terminal": "TA",
         "Dest": "MED",
-        "Quota": 8
+        "Quota": 13
+    },
+    {
+        "period": "2024",
+        "quota_id": "XY-RUH",
+        "Terminal": "TA",
+        "Dest": "RUH",
+        "Quota": 18
     }
-
 ]    
 
  `;
