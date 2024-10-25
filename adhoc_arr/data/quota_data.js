@@ -170,6 +170,13 @@
     },
     {
         "period": "2024",
+        "quota_id": "3L-SHJ",
+        "Terminal": "TA",
+        "Dest": "SHJ",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
         "quota_id": "3L-SLL",
         "Terminal": "TA",
         "Dest": "SLL",
@@ -593,7 +600,7 @@
         "quota_id": "EY-BAH",
         "Terminal": "TA",
         "Dest": "BAH",
-        "Quota": 86
+        "Quota": 85
     },
     {
         "period": "2024",
@@ -611,10 +618,17 @@
     },
     {
         "period": "2024",
+        "quota_id": "EY-BHX",
+        "Terminal": "TA",
+        "Dest": "BHX",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
         "quota_id": "EY-BKK",
         "Terminal": "TA",
         "Dest": "BKK",
-        "Quota": 86
+        "Quota": 85
     },
     {
         "period": "2024",
@@ -628,7 +642,7 @@
         "quota_id": "EY-BOM",
         "Terminal": "TA",
         "Dest": "BOM",
-        "Quota": 120
+        "Quota": 118
     },
     {
         "period": "2024",
@@ -649,7 +663,7 @@
         "quota_id": "EY-CAI",
         "Terminal": "TA",
         "Dest": "CAI",
-        "Quota": 122
+        "Quota": 120
     },
     {
         "period": "2024",
@@ -691,7 +705,7 @@
         "quota_id": "EY-CMB",
         "Terminal": "TA",
         "Dest": "CMB",
-        "Quota": 118
+        "Quota": 116
     },
     {
         "period": "2024",
@@ -705,7 +719,7 @@
         "quota_id": "EY-COK",
         "Terminal": "TA",
         "Dest": "COK",
-        "Quota": 91
+        "Quota": 90
     },
     {
         "period": "2024",
@@ -716,24 +730,38 @@
     },
     {
         "period": "2024",
+        "quota_id": "EY-DAC",
+        "Terminal": "TA",
+        "Dest": "DAC",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
         "quota_id": "EY-DEL",
         "Terminal": "TA",
         "Dest": "DEL",
-        "Quota": 121
+        "Quota": 119
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-DEN",
+        "Terminal": "TA",
+        "Dest": "DEN",
+        "Quota": 3
     },
     {
         "period": "2024",
         "quota_id": "EY-DMM",
         "Terminal": "TA",
         "Dest": "DMM",
-        "Quota": 92
+        "Quota": 91
     },
     {
         "period": "2024",
         "quota_id": "EY-DOH",
         "Terminal": "TA",
         "Dest": "DOH",
-        "Quota": 120
+        "Quota": 118
     },
     {
         "period": "2024",
@@ -859,7 +887,7 @@
         "quota_id": "EY-JED",
         "Terminal": "TA",
         "Dest": "JED",
-        "Quota": 121
+        "Quota": 119
     },
     {
         "period": "2024",
@@ -901,7 +929,7 @@
         "quota_id": "EY-KWI",
         "Terminal": "TA",
         "Dest": "KWI",
-        "Quota": 110
+        "Quota": 108
     },
     {
         "period": "2024",
@@ -909,6 +937,13 @@
         "Terminal": "TA",
         "Dest": "LED",
         "Quota": 11
+    },
+    {
+        "period": "2024",
+        "quota_id": "EY-LGG",
+        "Terminal": "TA",
+        "Dest": "LGG",
+        "Quota": 3
     },
     {
         "period": "2024",
@@ -922,7 +957,7 @@
         "quota_id": "EY-LHR",
         "Terminal": "TA",
         "Dest": "LHR",
-        "Quota": 119
+        "Quota": 117
     },
     {
         "period": "2024",
@@ -936,7 +971,7 @@
         "quota_id": "EY-MAA",
         "Terminal": "TA",
         "Dest": "MAA",
-        "Quota": 91
+        "Quota": 90
     },
     {
         "period": "2024",
@@ -957,7 +992,7 @@
         "quota_id": "EY-MCT",
         "Terminal": "TA",
         "Dest": "MCT",
-        "Quota": 119
+        "Quota": 117
     },
     {
         "period": "2024",
@@ -1034,7 +1069,7 @@
         "quota_id": "EY-RUH",
         "Terminal": "TA",
         "Dest": "RUH",
-        "Quota": 129
+        "Quota": 127
     },
     {
         "period": "2024",
@@ -1206,6 +1241,13 @@
     },
     {
         "period": "2024",
+        "quota_id": "LA-MAD",
+        "Terminal": "TA",
+        "Dest": "MAD",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
         "quota_id": "ME-BEY",
         "Terminal": "TA",
         "Dest": "BEY",
@@ -1217,6 +1259,13 @@
         "Terminal": "TA",
         "Dest": "CAI",
         "Quota": 54
+    },
+    {
+        "period": "2024",
+        "quota_id": "NC-TLV",
+        "Terminal": "TA",
+        "Dest": "TLV",
+        "Quota": 3
     },
     {
         "period": "2024",
@@ -1290,6 +1339,41 @@
     },
     {
         "period": "2024",
+        "quota_id": "PV-AUH",
+        "Terminal": "TA",
+        "Dest": "AUH",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
+        "quota_id": "PV-BSA",
+        "Terminal": "TA",
+        "Dest": "BSA",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
+        "quota_id": "PV-GYD",
+        "Terminal": "TA",
+        "Dest": "GYD",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
+        "quota_id": "PV-MGQ",
+        "Terminal": "TA",
+        "Dest": "MGQ",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
+        "quota_id": "PV-RKT",
+        "Terminal": "TA",
+        "Dest": "RKT",
+        "Quota": 3
+    },
+    {
+        "period": "2024",
         "quota_id": "QP-BOM",
         "Terminal": "TA",
         "Dest": "BOM",
@@ -1300,7 +1384,7 @@
         "quota_id": "QR-DOH",
         "Terminal": "TA",
         "Dest": "DOH",
-        "Quota": 151
+        "Quota": 149
     },
     {
         "period": "2024",
@@ -1308,6 +1392,13 @@
         "Terminal": "TA",
         "Dest": "DAM",
         "Quota": 7
+    },
+    {
+        "period": "2024",
+        "quota_id": "RB-LTK",
+        "Terminal": "TA",
+        "Dest": "LTK",
+        "Quota": 3
     },
     {
         "period": "2024",
@@ -1322,6 +1413,13 @@
         "Terminal": "TA",
         "Dest": "KBL",
         "Quota": 17
+    },
+    {
+        "period": "2024",
+        "quota_id": "RQ-KHT",
+        "Terminal": "TA",
+        "Dest": "KHT",
+        "Quota": 3
     },
     {
         "period": "2024",
