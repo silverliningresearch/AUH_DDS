@@ -47,8 +47,16 @@ function CalculateAirportAirLineReport() {
 
     //total_completed = total_completed + row.Completed;
         
-    if ( row.Difference > 0) { //over quota
-      total_quota_completed = total_quota_completed +row.Quota*1;
+
+    // if ( row.Difference > 0) { //over quota
+    //   total_quota_completed = total_quota_completed + row.Quota*1;
+    // }
+    if ( row.Difference > 10) {// speciall for AUH adhoc 
+      console.log("over quota > 10: ",  row.quota_id,  row.Completed, "/", row.Quota);
+
+      quota_data[i].Difference = 10;
+      quota_data[i].Completed =  quota_data[i].Quota  + 10;      
+      total_quota_completed = total_quota_completed + quota_data[i].Completed;
     }
     else { //<= 0
       if (row.Completed) {
@@ -57,6 +65,9 @@ function CalculateAirportAirLineReport() {
     }
 
   }
+
+  console.log("total_quota_completed: ", total_quota_completed);
+  console.log("total_completed: ", total_completed);
 
   for (i = 0; i < daily_plan_data.length; i++) {//airport_airline_report.length;
     row = daily_plan_data[i];
@@ -76,7 +87,12 @@ function CalculateAirportAirLineReport() {
     }  
   }
 
+  
   total_completed_percent = (100*(total_completed/total_quota)).toFixed(0);   
+  total_quota_completed_percent = (100*(total_quota_completed/total_quota)).toFixed(0);     
+  
+
+  
   daily_plan_data = [];
   daily_plan_data.length = 0;
 
