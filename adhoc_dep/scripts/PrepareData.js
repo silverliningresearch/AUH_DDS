@@ -127,7 +127,7 @@ function prepareInterviewData() {
          //&& (quota_data_temp[i].period_id == current_period)
         )
     {
-      quota_data_temp[i].Quota = quota_data_temp[i].Quota *2;//this is for 7000
+      quota_data_temp[i].Quota = quota_data_temp[i].Quota * 1;//this is for 3500
       quota_data.push(quota_data_temp[i]);
     }
   }
