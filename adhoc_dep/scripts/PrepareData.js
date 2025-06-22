@@ -117,6 +117,11 @@ function prepareInterviewData() {
   var interview_data_full  = JSON.parse(interview_statistics);
   var flight_list_full  = JSON.parse(AUH_Flight_List_Raw);
 
+  var not_flying_dep = ['3L-GYD', '6E-BBI', 'EY-PVG', '3L-CCU', 'DP-MCX', 'CA-PEK', 'HM-DMM', 'IX-PNQ', 'W4-MXP',
+'3L-BGW', '3L-CGP', '3L-LYP', 'EY-CGO', 'EY-EHU', 'IX-GOX', 'IX-VNS', 'PK-SKT', 'RB-DAM', '3L-SCT', '3L-TZX', '5W-BEY',
+'5W-GBB', '5W-MLE', '6Q-DAM', '7L-GYD', 'A3-ATH', 'B4-MXP', 'B4-ZRH', 'EY-AUH', 'EY-AYT', 'EY-JMK', 'EY-NCE', 'EY-PRG',
+'EY-SZX', 'HM-TLV', 'LG-LUX', 'LO-WAW', 'PC-COV', 'PC-ESB', 'PQ-BCM', 'T5-ASB', 'UX-MAD'];
+
   initCurrentTimeVars();		
   
   console.log("current_period: ",current_period);
@@ -128,8 +133,22 @@ function prepareInterviewData() {
          //&& (quota_data_temp[i].period_id == current_period)
         )
     {
-      quota_data_temp[i].Quota = quota_data_temp[i].Quota * 1;//this is for 3500
-      quota_data.push(quota_data_temp[i]);
+      if (quota_data_temp[i].period == "2025") 
+      {
+        if (not_flying_dep.includes(quota_data_temp[i].quota_id)) 
+        {
+          quota_data_temp[i].Quota = 0;      
+        }
+        else 
+        {
+          quota_data_temp[i].Quota =  Math.round(quota_data_temp[i].Quota*1.033); // 3500 / (3500 - 169);      
+        }
+
+        if (quota_data_temp[i].Quota>0) 
+        {
+           quota_data.push(quota_data_temp[i]);
+        }
+      }
     }
   }
   

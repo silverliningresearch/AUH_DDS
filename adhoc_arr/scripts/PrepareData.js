@@ -120,6 +120,11 @@ function prepareInterviewData() {
   var interview_data_full  = JSON.parse(interview_statistics);
   var flight_list_full  = JSON.parse(AUH_Flight_List_Raw);
 
+  var not_flying_arr = ['EY-PVG', 'EY-HKG', 'RQ-KBL', 'EY-EHU', 'EY-HAN', 'EY-SZX', 'O3-EHU',
+'3L-CCU', '5W-HSA', 'ES-BAH', 'CA-PEK', 'HM-DMM', 'IX-PNQ', 'W4-MXP', '3L-BGW', 'EY-CGO', 'IX-GOX', 'O3-SZX',
+'3L-SCT', '5W-GBB', '5W-MLE', '6Q-DAM', 'B4-MLE', 'CH-TLV', 'EY-AUH', 'EY-AYT', 'EY-NCE', 'EY-STN', 'IX-VNS',
+'LG-LUX', 'RB-LTK'];
+
   initCurrentTimeVars();		
   
   console.log("current_period: ",current_period);
@@ -131,8 +136,23 @@ function prepareInterviewData() {
          //&& (quota_data_temp[i].period_id == current_period)
         )
     {
-      quota_data_temp[i].Quota = quota_data_temp[i].Quota * 1;//this is for 3500
-      quota_data.push(quota_data_temp[i]);
+      if (quota_data_temp[i].period == "2025") 
+      {
+        if (not_flying_arr.includes(quota_data_temp[i].quota_id)) 
+        {
+          quota_data_temp[i].Quota = 0;      
+        }
+        else 
+        {
+          quota_data_temp[i].Quota =  Math.round(quota_data_temp[i].Quota*1.05); // 3500 / (3500 - 169);      
+        }
+
+        if (quota_data_temp[i].Quota>0) 
+        {
+           quota_data.push(quota_data_temp[i]);
+        }
+      }
+      
     }
   }
   
