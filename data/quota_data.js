@@ -1294,41 +1294,42 @@
         "Quota": 200
     },
     {
-        "Month": "11-2025",
+        "Month": "12-2025",
         "quota_id": "Airport Facilities - Prayer Rooms - Departures",
         "Terminal": "NA",
         "Quota": 50
     },
     {
-        "Month": "11-2025",
+        "Month": "12-2025",
         "quota_id": "Airport Facilities - Smoking Rooms - Arrivals",
         "Terminal": "NA",
         "Quota": 50
     },
     {
-        "Month": "11-2025",
+        "Month": "12-2025",
         "quota_id": "Airport Facilities - Smoking Rooms - Departures",
         "Terminal": "NA",
         "Quota": 50
     },
     {
-        "Month": "11-2025",
+        "Month": "12-2025",
         "quota_id": "Accessibility - Arrivals",
         "Terminal": "NA",
         "Quota": 30
     },
     {
-        "Month": "11-2025",
+        "Month": "12-2025",
         "quota_id": "Accessibility - Departures",
         "Terminal": "NA",
         "Quota": 30
     },
     {
-        "Month": "11-2025",
+        "Month": "12-2025",
         "quota_id": "Arrival Immigration",
         "Terminal": "NA",
         "Quota": 200
     }
+
 ]    
 
  `;
