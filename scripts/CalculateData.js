@@ -35,7 +35,9 @@ function CalculateAirportAirLineReport() {
       }
     }
 
-    row.Difference = row.Completed -  row.Quota;
+    row.Difference = row.Quota - row.Completed;
+    if (row.Difference <0 ) row.Difference = 0;
+
     row.Difference_percent =(100*(row.Difference/row.Quota)).toFixed(0);
     row.Prioritisation_score = row.Difference_percent*row.Difference/100;
 
